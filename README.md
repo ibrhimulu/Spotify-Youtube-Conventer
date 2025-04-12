@@ -63,27 +63,6 @@ python app.py
 
 6. Dönüştürme işlemini başlatın
 
-## Geliştirme
-
-Projeyi geliştirmek için:
-
-1. Yeni bir branch oluşturun:
-```bash
-git checkout -b yeni-ozellik
-```
-
-2. Değişikliklerinizi commit edin:
-```bash
-git add .
-git commit -m "Yeni özellik eklendi"
-```
-
-3. Branch'inizi push edin:
-```bash
-git push origin yeni-ozellik
-```
-
-4. Pull request oluşturun
 
 ## Lisans
 
