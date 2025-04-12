@@ -1,20 +1,87 @@
-# Spotify YouTube Playlist Dönüştürücü
+# Spotify YouTube Playlist Converter / Spotify YouTube Çalma Listesi Dönüştürücü
+
+## 🇬🇧 English
+
+This project is a web application that allows you to convert Spotify playlists to YouTube playlists.
+
+### Features
+
+- Automatically transfer Spotify playlists to YouTube
+- Song matching and verification
+- User-friendly interface
+- Secure authentication with OAuth2
+
+### Installation
+
+1. Clone the project:
+```bash
+git clone https://github.com/ibrhimulu/Spotify-Youtube-Conventer.git
+cd Spotify-Youtube-Conventer
+```
+
+2. Create and activate virtual environment:
+```bash
+python -m venv venv
+# For Windows:
+venv\Scripts\activate
+# For Linux/Mac:
+source venv/bin/activate
+```
+
+3. Install required packages:
+```bash
+pip install -r requirements.txt
+```
+
+4. Create `.env` file:
+```bash
+cp .env.example .env
+```
+
+5. Edit `.env` file:
+- Add your Spotify API credentials
+- Generate a secret key
+
+6. Set up Google API credentials:
+- Create a project in Google Cloud Console
+- Enable YouTube Data API v3
+- Create OAuth 2.0 credentials
+- Add `client_secret.json` to project directory
+
+### Usage
+
+1. Start the application:
+```bash
+python app.py
+```
+
+2. Go to `http://127.0.0.1:5000` in your browser
+
+3. Log in with your Spotify account
+
+4. Select the playlist you want to convert
+
+5. Log in with your YouTube account
+
+6. Start the conversion process
+
+## 🇹🇷 Türkçe
 
 Bu proje, Spotify çalma listelerini YouTube çalma listelerine dönüştürmenizi sağlayan bir web uygulamasıdır.
 
-## Özellikler
+### Özellikler
 
 - Spotify çalma listelerini otomatik olarak YouTube'a aktarma
 - Şarkı eşleştirme ve doğrulama
 - Kullanıcı dostu arayüz
 - OAuth2 ile güvenli kimlik doğrulama
 
-## Kurulum
+### Kurulum
 
 1. Projeyi klonlayın:
 ```bash
-git clone https://github.com/kullaniciadi/spotify-youtube-conventer.git
-cd spotify-youtube-conventer
+git clone https://github.com/ibrhimulu/Spotify-Youtube-Conventer.git
+cd Spotify-Youtube-Conventer
 ```
 
 2. Sanal ortam oluşturun ve aktif edin:
@@ -46,7 +113,7 @@ cp .env.example .env
 - OAuth 2.0 kimlik bilgilerini oluşturun
 - `client_secret.json` dosyasını proje dizinine ekleyin
 
-## Kullanım
+### Kullanım
 
 1. Uygulamayı başlatın:
 ```bash
@@ -63,7 +130,38 @@ python app.py
 
 6. Dönüştürme işlemini başlatın
 
+## 📄 License / Lisans
 
-## Lisans
+This project is licensed under the MIT License. See the `LICENSE` file for more information.
 
 Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına bakın.
+
+## Geliştirme
+
+Projeyi geliştirmek için:
+
+1. Yeni bir branch oluşturun:
+```bash
+git checkout -b yeni-ozellik
+```
+
+2. Değişikliklerinizi commit edin:
+```bash
+git add .
+git commit -m "Yeni özellik eklendi"
+```
+
+3. Branch'inizi push edin:
+```bash
+git push origin yeni-ozellik
+```
+
+4. Pull request oluşturun
+
+## Katkıda Bulunma
+
+1. Fork'layın
+2. Feature branch'i oluşturun (`git checkout -b feature/amazing-feature`)
+3. Değişikliklerinizi commit edin (`git commit -m 'Add some amazing feature'`)
+4. Branch'inizi push edin (`git push origin feature/amazing-feature`)
+5. Pull Request açın 
