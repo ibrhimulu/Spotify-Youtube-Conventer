@@ -1,6 +1,6 @@
 # Spotify YouTube Playlist Converter / Spotify YouTube Çalma Listesi Dönüştürücü
 
-## 🇬🇧 English
+## 🌍 English
 
 This project is a web application that allows you to convert Spotify playlists to YouTube playlists.
 
@@ -65,7 +65,7 @@ python app.py
 
 6. Start the conversion process
 
-## 🇹🇷 Türkçe
+## 🌍 Türkçe
 
 Bu proje, Spotify çalma listelerini YouTube çalma listelerine dönüştürmenizi sağlayan bir web uygulamasıdır.
 
@@ -134,34 +134,4 @@ python app.py
 
 This project is licensed under the MIT License. See the `LICENSE` file for more information.
 
-Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına bakın.
-
-## Geliştirme
-
-Projeyi geliştirmek için:
-
-1. Yeni bir branch oluşturun:
-```bash
-git checkout -b yeni-ozellik
-```
-
-2. Değişikliklerinizi commit edin:
-```bash
-git add .
-git commit -m "Yeni özellik eklendi"
-```
-
-3. Branch'inizi push edin:
-```bash
-git push origin yeni-ozellik
-```
-
-4. Pull request oluşturun
-
-## Katkıda Bulunma
-
-1. Fork'layın
-2. Feature branch'i oluşturun (`git checkout -b feature/amazing-feature`)
-3. Değişikliklerinizi commit edin (`git commit -m 'Add some amazing feature'`)
-4. Branch'inizi push edin (`git push origin feature/amazing-feature`)
-5. Pull Request açın 
+Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına bakın. 
